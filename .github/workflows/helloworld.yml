@@ -10,4 +10,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "print hello world"
-              run:  echo "Hello wolrd"            
+              run:  echo "Hello wolrd"    
+              
+            - name : "print current date"
+              run : date
